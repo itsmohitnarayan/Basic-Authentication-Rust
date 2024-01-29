@@ -1,3 +1,8 @@
-fn main() {
-    println!("Hello, world!");
+use reqwest::blocking::Client;
+use reqwest::Error;
+
+fn main() -> Result<(), Error> {
+    
+
+    Ok(())
 }
